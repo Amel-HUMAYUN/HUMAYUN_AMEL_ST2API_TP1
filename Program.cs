@@ -23,8 +23,7 @@ namespace Exo_2
                 if (ctr == 0 && num != 1)
                     Console.Write("{0} ", num);
             }
-            Console.Write("\n");
-
+            
         }
         static void Main(string[] args)
         {
