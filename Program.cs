@@ -23,12 +23,20 @@ namespace Exo_2
                 if (ctr == 0 && num != 1)
                     Console.Write("{0} ", num);
             }
-            
         }
+        private static int AskUserForParameter()
+        {
+            Console.WriteLine("Please write a number and press enter :");
+            int.TryParse(Console.ReadLine(), out var result);
+            return result;
+        }
+
         static void Main(string[] args)
         {
 
             Prime();
+            var myParam = AskUserForParameter();
+
         }
     }
 }
