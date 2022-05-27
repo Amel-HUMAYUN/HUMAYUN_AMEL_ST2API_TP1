@@ -4,6 +4,7 @@ namespace HUMAYUN_AMEL_ST2API_TP1
 {
     public class Exo2
     {
+        # Prime number between 1 and 1000
         public void Prime()
         {
             for (int num = 1; num <= 1000; num++)
@@ -23,6 +24,7 @@ namespace HUMAYUN_AMEL_ST2API_TP1
             }
         }
 
+        # Fibonacci 1 to a number that will ask to user
         public void Fibo(int asknum)
         {
             int f0 = 0;
@@ -36,11 +38,10 @@ namespace HUMAYUN_AMEL_ST2API_TP1
                 f0 = f1;
                 f1 = next;
                 Console.WriteLine(next);
-
             }
-
         }
 
+        # factorial of a number that will ask to user
         public void Factorial(int ask)
         {
             int factorial = 1;
@@ -56,7 +57,6 @@ namespace HUMAYUN_AMEL_ST2API_TP1
                 Console.WriteLine(factorial);
             }
         }
-
     }
 }
 
