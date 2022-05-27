@@ -4,6 +4,7 @@ namespace HUMAYUN_AMEL_ST2API_TP1
 {
     public class Exo4
     {
+        // Rectangle of dimension N x M that the user will choose
         public void Square(int n, int m)
         {
             for (int i=1; i<= n; i++)
@@ -20,15 +21,10 @@ namespace HUMAYUN_AMEL_ST2API_TP1
                     {
                         Console.Write(" ");
                     }
-                        
-
                 }
                 Console.WriteLine(" ");
             }
         }
-       
-
-
     }
 }
 
