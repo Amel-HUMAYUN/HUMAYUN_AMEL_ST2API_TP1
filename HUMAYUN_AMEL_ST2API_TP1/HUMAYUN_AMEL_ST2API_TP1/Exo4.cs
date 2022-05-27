@@ -1,10 +1,9 @@
-﻿using System;
+using System;
 
 namespace HUMAYUN_AMEL_ST2API_TP1
 {
     public class Exo4
     {
-        // Rectangle of dimension N x M that the user will choose
         public void Square(int n, int m)
         {
             for (int i=1; i<= n; i++)
@@ -21,10 +20,47 @@ namespace HUMAYUN_AMEL_ST2API_TP1
                     {
                         Console.Write(" ");
                     }
+                        
+                    
                 }
                 Console.WriteLine(" ");
             }
         }
-    }
+
+        public  void SquareStars(int w, int h)
+        {
+            string srect = "";
+            for (int i = 0; i < w; i++)
+            {
+                for (int j = 0; j < h; j++)
+                {
+                    var offset = j % 3;
+
+                    if (i == 0 && j == 0 || i == w - 1 && j == 0 || i == 0 && j == h - 1 || i == w - 1 && j == h - 1)
+                    {
+                        srect += "o";
+                    }
+                    else if (j == 0 || j == h - 1)
+                    {
+                        srect += "|";
+                    }
+                    else if (i == 0 || i == w - 1)
+                    {
+                        srect += "-";
+                    }
+                    else if (i % 3 == offset)
+                    {
+                        srect += "*";
+                    }
+                    else
+                    {
+                        srect += " ";
+                    }
+                }
+                srect += "\n";
+            }
+            Console.WriteLine(srect);
+        }
+    }    
 }
 
