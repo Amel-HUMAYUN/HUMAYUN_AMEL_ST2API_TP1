@@ -4,6 +4,7 @@ namespace HUMAYUN_AMEL_ST2API_TP1
 {
     public class Exo5
     {
+        // Christmas tree not decorate
         public void Christmas(int num)
         {
             string str = "";
@@ -16,7 +17,6 @@ namespace HUMAYUN_AMEL_ST2API_TP1
                 for (int k=0; k< 2 *i -1;k++)
                 {
                     str += "*";
-
                 }
                 str += "\n";
             }
@@ -35,9 +35,7 @@ namespace HUMAYUN_AMEL_ST2API_TP1
                 {
                     Console.Write(" ");
                 }
-
             }
         }
-
     }
  }
