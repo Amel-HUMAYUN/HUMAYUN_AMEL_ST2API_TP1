@@ -10,9 +10,27 @@ namespace HUMAYUN_AMEL_ST2API_TP1
             int.TryParse(Console.ReadLine(), out var result);
             return result;
         }
-        
+
+        private static int AskWidth()
+        {
+            Console.WriteLine("Please write a number for the width and press enter :");
+            int.TryParse(Console.ReadLine(), out var result);
+            return result;
+        }
+
+        private static int AskHeight()
+        {
+            Console.WriteLine("Please write a number for the height and press enter :");
+            int.TryParse(Console.ReadLine(), out var result);
+            return result;
+        }
+
+
+
         static void Main(string[] args)
-        {    
+        {
+
+            
             // Display tittle as the C# console for TP1
             Console.WriteLine("Hello FONTANA Julien !!!! Here is the TP1 in C# by HUMAYUN Amel");
             Console.WriteLine("-----------------------------------------------------------");
@@ -28,7 +46,9 @@ namespace HUMAYUN_AMEL_ST2API_TP1
             Console.WriteLine("f - Exo2_3_factorial");
             Console.WriteLine("g - Exo3_divison_by_zero");
             Console.WriteLine("h - Exo_4_1_rectangle");
-            Console.WriteLine("i - Exo_5_1_regularTree");
+            Console.WriteLine("i - Exo_4_1_rectangle with stars");
+            Console.WriteLine("j - Exo_5_1_regularTree");
+            Console.WriteLine("k - Exo_5_2_decorateTree");
             Console.Write("Your option? ");
 
 
@@ -51,7 +71,6 @@ namespace HUMAYUN_AMEL_ST2API_TP1
                     Exo1 exo1_3 = new Exo1();
                     exo1_3.MultiplicationaskNumber(AskUserForParameter());
                     break;
-                    
                 case "d":
                     Console.WriteLine($"Your result of all prime number between 1 and 1000: ");
                     Exo2 exo2_1 = new Exo2();
@@ -78,14 +97,26 @@ namespace HUMAYUN_AMEL_ST2API_TP1
 
                 case "h":
                     Console.WriteLine($"Your result for the rectangle: ");
-                    Exo4 exo4 = new Exo4();
-                    exo4.Square(AskUserForParameter(), AskUserForParameter());
+                    Exo4 exo4_1 = new Exo4();
+                    exo4_1.Square(AskHeight(), AskWidth());
                     break;
 
                 case "i":
-                    Console.WriteLine($"Your result: ");
-                    Exo5 exo5 = new Exo5();
-                    exo5.Christmas(AskUserForParameter());
+                    Console.WriteLine($"Your result for the rectangle with stars: ");
+                    Exo4 exo4_2 = new Exo4();
+                    exo4_2.SquareStars(AskWidth(), AskHeight());
+                    break;
+
+                case "j":
+                    Console.WriteLine($"Your result for a regular tree: ");
+                    Exo5 exo5_1 = new Exo5();
+                    exo5_1.Christmas(AskUserForParameter());
+                    break;
+
+                case "k":
+                    Console.WriteLine($"Your result for a decorated tree: ");
+                    Exo5 exo5_2 = new Exo5();
+                    exo5_2.DecorateTree(AskUserForParameter());
                     break;
             }
         }
