@@ -1,0 +1,14 @@
+C:\Users\hamel\source\repos\HUMAYUN_AMEL_ST2API_TP1\HUMAYUN_AMEL_ST2API_TP1\bin\Debug\netcoreapp3.1\HUMAYUN_AMEL_ST2API_TP1.exe
+C:\Users\hamel\source\repos\HUMAYUN_AMEL_ST2API_TP1\HUMAYUN_AMEL_ST2API_TP1\bin\Debug\netcoreapp3.1\HUMAYUN_AMEL_ST2API_TP1.deps.json
+C:\Users\hamel\source\repos\HUMAYUN_AMEL_ST2API_TP1\HUMAYUN_AMEL_ST2API_TP1\bin\Debug\netcoreapp3.1\HUMAYUN_AMEL_ST2API_TP1.runtimeconfig.json
+C:\Users\hamel\source\repos\HUMAYUN_AMEL_ST2API_TP1\HUMAYUN_AMEL_ST2API_TP1\bin\Debug\netcoreapp3.1\HUMAYUN_AMEL_ST2API_TP1.runtimeconfig.dev.json
+C:\Users\hamel\source\repos\HUMAYUN_AMEL_ST2API_TP1\HUMAYUN_AMEL_ST2API_TP1\bin\Debug\netcoreapp3.1\HUMAYUN_AMEL_ST2API_TP1.dll
+C:\Users\hamel\source\repos\HUMAYUN_AMEL_ST2API_TP1\HUMAYUN_AMEL_ST2API_TP1\bin\Debug\netcoreapp3.1\HUMAYUN_AMEL_ST2API_TP1.pdb
+C:\Users\hamel\source\repos\HUMAYUN_AMEL_ST2API_TP1\HUMAYUN_AMEL_ST2API_TP1\obj\Debug\netcoreapp3.1\HUMAYUN_AMEL_ST2API_TP1.csproj.AssemblyReference.cache
+C:\Users\hamel\source\repos\HUMAYUN_AMEL_ST2API_TP1\HUMAYUN_AMEL_ST2API_TP1\obj\Debug\netcoreapp3.1\HUMAYUN_AMEL_ST2API_TP1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hamel\source\repos\HUMAYUN_AMEL_ST2API_TP1\HUMAYUN_AMEL_ST2API_TP1\obj\Debug\netcoreapp3.1\HUMAYUN_AMEL_ST2API_TP1.AssemblyInfoInputs.cache
+C:\Users\hamel\source\repos\HUMAYUN_AMEL_ST2API_TP1\HUMAYUN_AMEL_ST2API_TP1\obj\Debug\netcoreapp3.1\HUMAYUN_AMEL_ST2API_TP1.AssemblyInfo.cs
+C:\Users\hamel\source\repos\HUMAYUN_AMEL_ST2API_TP1\HUMAYUN_AMEL_ST2API_TP1\obj\Debug\netcoreapp3.1\HUMAYUN_AMEL_ST2API_TP1.csproj.CoreCompileInputs.cache
+C:\Users\hamel\source\repos\HUMAYUN_AMEL_ST2API_TP1\HUMAYUN_AMEL_ST2API_TP1\obj\Debug\netcoreapp3.1\HUMAYUN_AMEL_ST2API_TP1.dll
+C:\Users\hamel\source\repos\HUMAYUN_AMEL_ST2API_TP1\HUMAYUN_AMEL_ST2API_TP1\obj\Debug\netcoreapp3.1\HUMAYUN_AMEL_ST2API_TP1.pdb
+C:\Users\hamel\source\repos\HUMAYUN_AMEL_ST2API_TP1\HUMAYUN_AMEL_ST2API_TP1\obj\Debug\netcoreapp3.1\HUMAYUN_AMEL_ST2API_TP1.genruntimeconfig.cache
