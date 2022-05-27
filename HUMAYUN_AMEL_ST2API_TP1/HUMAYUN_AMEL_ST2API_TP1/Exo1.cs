@@ -4,7 +4,7 @@ namespace HUMAYUN_AMEL_ST2API_TP1
 {
     public class Exo1
     {
-        # table of multiplication 
+        // Table of multiplication 
         public void Multiplication()
         {
             for (int i = 1; i <= 10; i++)
@@ -20,7 +20,7 @@ namespace HUMAYUN_AMEL_ST2API_TP1
             }
         }
         
-        # table of multiplication and it will only print odd number
+        // Table of multiplication and it will only print odd number
         public void MultiplicationOdd()
         {
             for (int i = 1; i< 11; i++)
@@ -38,7 +38,7 @@ namespace HUMAYUN_AMEL_ST2API_TP1
             }
         }
 
-        # table of multiplication and ask a number to user
+        // Table of multiplication and ask a number to user
         public void MultiplicationaskNumber(int n)
         {
                 for (int j = 1; j <= 10; j++)
@@ -49,7 +49,6 @@ namespace HUMAYUN_AMEL_ST2API_TP1
                         Console.Write("{0}x{1} = {2}", n, j, n * j);
                 }
                 Console.Write("\n");
-            
         }
     }
 }
