@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace HUMAYUN_AMEL_ST2API_TP1
 {
@@ -10,133 +10,12 @@ namespace HUMAYUN_AMEL_ST2API_TP1
             int.TryParse(Console.ReadLine(), out var result);
             return result;
         }
-        static void Multiplication(int i)
-        {
-            for (int j = 1; j < 11; j++)
-            {
-                int mul = i * j;
-                Console.WriteLine(mul);
-                if (mul % 2 != 0)
-                {
-                    Console.WriteLine(mul);
-                }
-                else
-                {
-                }
-            }
-        }
-        static void Fibo(int asknum)
-        {
-            int f0 = 0;
-            int f1 = 1;
-            Console.WriteLine("La suite de Fibonacci est :");
-            Console.WriteLine(f0);
-            Console.WriteLine(f1);
-            for (int a = 2; a <= asknum; a++)
-            {
-                int next = f0 + f1;
-                f0 = f1;
-                f1 = next;
-                Console.WriteLine(next);
-
-            }
-
-        }
-        static void Prime()
-        {
-            for (int num = 1; num <= 1000; num++)
-            {
-                int ctr = 0;
-
-                for (int i = 2; i <= num / 2; i++)
-                {
-                    if (num % i == 0)
-                    {
-                        ctr++;
-                        break;
-                    }
-                }
-                if (ctr == 0 && num != 1)
-                    Console.Write("{0} ", num);
-            }
-        }
-
-        static void Factorial(int ask)
-        {
-            int factorial = 1;
-            if (ask < 0)
-                Console.WriteLine("Cannot find the factorial of a negative number");
-            else if (ask == 1)
-                Console.WriteLine(factorial);
-            else
-            {
-                for (int counter = ask; counter >= 2; counter--)
-                    factorial = factorial * counter;
-
-                Console.WriteLine(factorial);
-            }
-        }
-
-        private static int PowerFunction(int x)
-        {
-            return (int)(Math.Pow(x, 2) - 4);
-        }
-
-        static void Function()
-        {
-            
-            for (int j = -3; j<=3; j++)
-            {
-                
-                try
-                {
-                    Console.WriteLine(10 / ((int)(Math.Pow(j, 2)) - 4));
-                }
-                catch (DivideByZeroException e)
-                {
-                    Console.WriteLine(e.Message);
-                }
-                
-            }
-        }
-
-
-
         
-
-
-
         static void Main(string[] args)
-        {
-
-            /* 
-             Exo1 exo1_1 = new Exo1();
-             exo1_1.Multiplication(AskUserForParameter());
-
-             Exo1 exo1_2 = new Exo1();
-             exo1_2.Multiplication(AskUserForParameter());
-
-             Exo2 exo2_1 = new Exo2();
-             exo2_1.Prime();
-
-             Exo2 exo2_2 = new Exo2();
-             exo2_2.Fibo(AskUserForParameter());
-
-             Exo2 exo2_3 = new Exo2();
-             exo2_3.Factorial(AskUserForParameter());
-
-             Exo3 exo3 = new Exo3();
-             exo3.Function(); 
-
-            Exo4 exo4 = new Exo4();
-            exo4.Square(AskUserForParameter(), AskUserForParameter());
-
-            Exo5 exo5 = new Exo5();
-            exo5.Christmas(AskUserForParameter());
-            */
+        {    
             // Display tittle as the C# console for TP1
-            Console.WriteLine("Console TP1 in C# by HUMAYUN Amel");
-            Console.WriteLine("---------------------------------");
+            Console.WriteLine("Hello FONTANA Julien !!!! Here is the TP1 in C# by HUMAYUN Amel");
+            Console.WriteLine("-----------------------------------------------------------");
 
             // Ask user to choose an exercice
 
@@ -208,11 +87,6 @@ namespace HUMAYUN_AMEL_ST2API_TP1
                     exo5.Christmas(AskUserForParameter());
                     break;
             }
-
-
-
-
-
         }
     }
 }
