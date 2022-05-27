@@ -51,6 +51,7 @@ namespace HUMAYUN_AMEL_ST2API_TP1
                     Exo1 exo1_3 = new Exo1();
                     exo1_3.MultiplicationaskNumber(AskUserForParameter());
                     break;
+                    
                 case "d":
                     Console.WriteLine($"Your result of all prime number between 1 and 1000: ");
                     Exo2 exo2_1 = new Exo2();
